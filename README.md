@@ -7,6 +7,11 @@
 - [Руководство по GIT](https://githowto.com/ru)
 - [Компоненты](https://reactdev.ru/learn/your-first-component/)
 - [CSS modules](https://habr.com/ru/articles/335244/)
+- [useState()](https://ru.legacy.reactjs.org/docs/hooks-intro.html)
+- [useEffect()](https://ru.legacy.reactjs.org/docs/hooks-overview.html)
+- [Списки и ключи](https://ru.legacy.reactjs.org/docs/lists-and-keys.html)
+- [TypeScript для React](https://habr.com/ru/companies/otus/articles/456124/)
+- [Библиотека react-toastify (для работы со всплывающими уведомлениями)](https://www.npmjs.com/package/react-toastify)
 
 ***
 
