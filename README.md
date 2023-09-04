@@ -12,6 +12,9 @@
 - [Списки и ключи](https://ru.legacy.reactjs.org/docs/lists-and-keys.html)
 - [TypeScript для React](https://habr.com/ru/companies/otus/articles/456124/)
 - [Библиотека react-toastify (для работы со всплывающими уведомлениями)](https://www.npmjs.com/package/react-toastify)
+- [React Router (старый синтаксис)](https://v5.reactrouter.com/web/guides/quick-start)
+- [React Router (новый синтаксис)](https://reactrouter.com/en/main/upgrading/v6-data)
+- Библиотеки [react-helmet](https://www.npmjs.com/package/react-helmet) и [react-helmet-async](https://www.npmjs.com/package/react-helmet-async)
 
 ***
 

@@ -21,6 +21,11 @@
     text-decoration: none;
     padding: 10px;
     color: #fff;
+    -webkit-transition: color 0.3s;
+    -moz-transition: color 0.3s;
+    -ms-transition: color 0.3s;
+    -o-transition: color 0.3s;
+    transition: color 0.3s;
 
     &.active {
       color: #ffffff33;
