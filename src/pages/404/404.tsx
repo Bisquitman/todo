@@ -1,10 +1,21 @@
 import {Link} from "react-router-dom";
 import {Header} from "../../Components/Header/Header";
 import classes from './404.module.scss';
+import {Helmet, HelmetProvider} from "react-helmet-async";
 
 export const NotFound = () => {
   return (
     <>
+      <HelmetProvider>
+        <Helmet>
+          <link rel="preconnect" href="https://fonts.googleapis.com"/>
+          <link rel="preconnect" href="https://fonts.gstatic.com"/>
+          <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+                rel="stylesheet"/>
+          <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Roboto:wght@100;300&display=swap"
+                rel="stylesheet"/>
+        </Helmet>
+      </HelmetProvider>
       <Header/>
       {/*<h1>Error 404 - Page not found</h1>*/}
 
