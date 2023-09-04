@@ -8,19 +8,17 @@ export const NotFound = () => {
     <>
       <HelmetProvider>
         <Helmet>
+          <title>Ошибка 404 - страница не найдена</title>
           <link rel="preconnect" href="https://fonts.googleapis.com"/>
           <link rel="preconnect" href="https://fonts.gstatic.com"/>
-          <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
-                rel="stylesheet"/>
           <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Roboto:wght@100;300&display=swap"
                 rel="stylesheet"/>
         </Helmet>
       </HelmetProvider>
+
       <Header/>
-      {/*<h1>Error 404 - Page not found</h1>*/}
 
       <div className={classes.body}>
-
         <h1 className={classes.h1}>404</h1>
         <div className={classes.wrapper}>
           <div className={classes.container}>
@@ -33,9 +31,6 @@ export const NotFound = () => {
           <Link className={classes.link} to="/" rel="noreferrer noopener">На главную</Link>
         </div>
       </div>
-
-
-      {/*  /!*<Link to="/">&lt; Вернуться на главную</Link>*!/*/}
     </>
   );
 }
