@@ -15,6 +15,7 @@
 - [React Router (старый синтаксис)](https://v5.reactrouter.com/web/guides/quick-start)
 - [React Router (новый синтаксис)](https://reactrouter.com/en/main/upgrading/v6-data)
 - Библиотеки [react-helmet](https://www.npmjs.com/package/react-helmet) и [react-helmet-async](https://www.npmjs.com/package/react-helmet-async)
+- [Redux-toolkit](https://redux-toolkit.js.org/tutorials/quick-start)
 
 ***
 
