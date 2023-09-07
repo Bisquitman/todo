@@ -16,7 +16,7 @@ export const NotFound = () => {
         </Helmet>
       </HelmetProvider>
 
-      <Header/>
+      {/*<Header/>*/}
 
       <div className={classes.body}>
         <h1 className={classes.h1}>404</h1>

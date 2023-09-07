@@ -4,7 +4,6 @@ import {NotFound} from "./pages/404/404";
 import {ViewListPage} from "./pages/ViewListPage";
 import {ToDoListPage} from "./pages/ToDoListPage";
 import {ViewListItem} from "./pages/ViewListItem";
-import React from "react";
 
 export const router = createBrowserRouter([
   {
@@ -20,5 +19,5 @@ export const router = createBrowserRouter([
   {
     path: '*',
     element: <NotFound/>,
-  }
+  },
 ]);

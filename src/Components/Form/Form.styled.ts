@@ -8,10 +8,11 @@ export const FormWrapper = styled.div`
   padding: 15px;
   z-index: 5;
 
-  background-color: #4682b4;
+  background-color: ${(props) => props.theme.colors.bgPrimary};
   box-shadow: 0 2px 4px rgba(44, 62, 80, 0.15);
   border-bottom-right-radius: 10px;
   border-bottom-left-radius: 10px;
+  -webkit-transition: background-color 0.2s;-moz-transition: background-color 0.2s;-ms-transition: background-color 0.2s;-o-transition: background-color 0.2s;transition: background-color 0.2s;
 `;
 
 export const FormBlock = styled.form``;
